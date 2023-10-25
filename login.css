@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aquamarine;
+
+}
+
+.container {
+    margin: auto;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    height: 700px;
+    width: 350px;
+    margin-top: 100px;
+    border-radius:5px;
+
+}
+
+.button {
+    background-color: rgb(210, 32, 62);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5%;
+    width: 100%;
+}
+.text {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.input_email {
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+}
+.input_password {
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+}
+.images {
+    width: 30%;
+    height: 50px;
+}
